@@ -1,4 +1,11 @@
-hero,
+.hero,
 footer {
   background-color: #1f2937;
+  color: white;
+}
+
+.navbar > ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
 }
