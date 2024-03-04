@@ -15,6 +15,13 @@ footer {
   list-style: none;
 }
 
+.quote {
+  background-color: #e5e7eb;
+  font-style: italic;
+  font-weight: light;
+  font-size: 36px;
+  color: #1f2937;
+}
 button {
   color: white;
   background-color: #3882f6;
