@@ -9,20 +9,14 @@ footer {
   color: white;
 }
 
-.navbar > ul {
+.hero {
   display: flex;
-  justify-content: end;
-  list-style: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.quote {
-  background-color: #e5e7eb;
-  font-style: italic;
-  font-weight: light;
-  font-size: 36px;
-  color: #1f2937;
-}
-button {
-  color: white;
-  background-color: #3882f6;
+ul > li {
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
