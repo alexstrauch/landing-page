@@ -3,20 +3,28 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.hero,
-footer {
+.hero {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #1f2937;
   color: white;
 }
 
-.hero {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.hero div {
+  flex: 1;
+}
+
+#logo {
+  margin-left: 50px;
+  font-weight: bold;
+  padding-top: 10px;
 }
 
 ul > li {
-  display: flex;
-  align-items: center;
   list-style: none;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
 }
