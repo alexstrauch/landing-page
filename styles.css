@@ -5,7 +5,11 @@ body {
 
 .hero {
   display: flex;
+  justify-content: space-evenly;
+  align-content: center;
   flex-wrap: wrap;
+  min-width: auto;
+  max-width: auto;
   gap: 30px;
   background-color: #1f2937;
   color: white;
@@ -14,24 +18,50 @@ body {
 .flexbox-item-1 {
   font-size: 24px;
   color: #f9faf8;
+  padding-top: 10px;
 }
 
 ul > li {
   list-style: none;
 }
 
-.flexbox-item-2 {
-  font-size: 18px;
+li > a {
+  text-decoration: none;
   color: #e5e7eb;
 }
 
+.flexbox-item-2,
+.flexbox-item-3-hero-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+  max-width: 500px;
+}
+
 .flexbox-item-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  background-color: #1f2937;
+  gap: 10px;
+  padding-left: 50px;
+}
+
+.flexbox-item-3-hero {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  max-width: 500px;
 }
 
 button {
   background-color: #3882f6;
   color: white;
+  text-align: center;
   border-radius: 15%;
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
 }
 
 .flexbox-item-4 {
