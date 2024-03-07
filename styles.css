@@ -59,11 +59,11 @@ li a {
 }
 
 .hero-right {
-  background-color: grey;
   display: flex;
   align-items: center;
   justify-content: center;
   align-self: stretch;
+  margin-left: 150px;
 }
 
 h1 {
